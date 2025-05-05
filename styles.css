@@ -1,0 +1,13 @@
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.card-title {
+    color: #FEFAE0
+}
+
+.card {
+    background-color: #606C38;
+}
