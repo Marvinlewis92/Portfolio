@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvin Lewis Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Marvin Lewis Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Real Esate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Software Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <style>
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 1020; /* Ensures it stays above other content */
+        }
+        @keyframes navbarColorChange {
+            0% {
+                background-color: white;
+            }
+            100% {
+                background-color: pink;
+            }
+        }
+
+        .navbar {
+            animation: navbarColorChange 30s ease-in-out forwards;
+        }
+    </style>
+
+    <!-- Main Content -->
+
+    <!-- Hero Section -->
+    <section class="py-5 container-fluid vh-100" style="background-color: pink;">
+    <div class="container text-center">
+        <h1>Welcome to My Website</h1>
+        <p>This is a basic responsive home page using Bootstrap.</p>
+    </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card text-center bg-secondary">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card Image 3">
+                        <div class="card-body">
+                            <h2 class="card-title">Card 3</h2>
+                            <p class="card-text">This is the description for card 3.</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-center" style="background-color: blue; color: white;">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card Image 3">
+                        <div class="card-body">
+                            <h2 class="card-title">Card 4</h2>
+                            <p class="card-text">This is the description for card 3.</p>
+                            <a href="#" class="stretched-link"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <div class="card text-center" style="background-color: blue; color: white;">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card Image 3">
+                            <div class="card-body">
+                                <h2 class="card-title">Card 3</h2>
+                                <p class="card-text">This is the description for card 3.</p>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card text-center" style="background-color: blue; color: white;">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card Image 3">
+                            <div class="card-body">
+                                <h2 class="card-title">Card 4</h2>
+                                <p class="card-text">This is the description for card 4.</p>
+                                <a href="#" class="stretched-link"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    
+        <style>
+            .card:hover {
+                transform: scale(1.05);
+                transition: transform 0.3s ease-in-out;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+            @keyframes bounce {
+                0%, 100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-10px);
+                }
+            }
+
+            .card {
+                animation: bounce 3s ease-in-out 3;
+            }
+        </style>
+    </section>
+
+    <!-- About Me  -->
+    <section>
+        <div class="container text-center mt-5">
+            <h2>About Me</h2>
+            <div class="row align-items-center">
+                <div class="col">
+                  <h3>Who is MJ?</h3>
+                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                </div>
+                <div class="col">
+                  <h3>Brief Overview</h3>
+                  <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                  </p>
+              </div>
+        </div>
+        </div>
+
+    </section>
+
+    
+
+
+    <!-- Image Carousel -->
+    <div id="imageCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 5">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 6">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 7">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 8">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 9">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 10">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 11">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-100" alt="Image 12">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <style>
+            #imageCarousel {
+                max-width: 600px;
+                max-height: 300px;
+                margin: 0 auto;
+            }
+            #imageCarousel img {
+                max-height: 300px;
+                object-fit: cover;
+            }
+        </style>
+        <button class="btn btn-primary mt-3" onclick="nextCarouselItem()">Next</button>
+        <script>
+            function nextCarouselItem() {
+                const carousel = new bootstrap.Carousel(document.querySelector('#imageCarousel'));
+                carousel.next();
+            }
+        </script>
+    </div>
+    
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
