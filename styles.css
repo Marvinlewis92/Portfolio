@@ -11,3 +11,54 @@
 .card {
     background-color: #606C38;
 }
+
+.col-med-6 {
+    margin-bottom: 5px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensures it stays above other content */
+    animation: navbarColorChange 15s ease-in-out forwards;
+}
+@keyframes navbarColorChange {
+    0% {
+        background-color: white;
+    }
+    100% {
+        background-color: #DDA15E;
+    }
+}
+.card-body p {
+    color: #FEFAE0;
+}
+
+#codingp{
+    background-color: none;
+    background-image: url(./pics/coding_icon.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+#realestatep{
+    background-color: none;
+    background-image: url(./pics/real_estate_icon.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+#musicp{
+    background-color: none;
+    background-image: url(./pics/music_icon.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+#actingp{
+    background-color: none;
+    background-image: url(./pics/acting_icon.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+}
+
+

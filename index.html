@@ -41,80 +41,65 @@
         </div>
     </nav>
     <style>
-        .navbar {
-            position: sticky;
-            top: 0;
-            z-index: 1020; /* Ensures it stays above other content */
-        }
-        @keyframes navbarColorChange {
-            0% {
-                background-color: white;
-            }
-            100% {
-                background-color: #DDA15E;
-            }
-        }
-
-        .navbar {
-            animation: navbarColorChange 15s ease-in-out forwards;
-        }
+      
     </style>
 
-    <!-- Main Content -->
 
-    <!-- Hero Section -->
-    <section class="py-5 container-fluid vh-100" style="background-color: #fefae0">
-    <div class="container text-center">
+
+<!-- Main Content -->
+
+    <section style="background-color: #fefae0">
+
+    <div class="container-fluid text-center">
         <h1>Welcome to My Website</h1>
-        <p>This is a basic responsive home page using Bootstrap.</p>
+        <p id="hidep">This is a basic responsive home page using Bootstrap.</p>
     </div>
 
-        <div class="container-fluid">
+        <div class="container-fluid py-5 vh-80" id="card-row1">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 mt-2">
                     <div class="card text-center">
                         <img src="./pics/music_icon.png" class="card-img-top img-fluid img-thumbnail" alt="Card Image 3"> 
-                        <div class="card-body">
+                        <div class="card-body" id="musicp">
                             <h2 class="card-title">Music</h2>
                             <p class="card-text">Check out Goshen's(Marvin) music</p>
                             <a href="#" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 mt-2">
                     <div class="card text-center">
                         <img src="./pics/real_estate_icon.png" class="card-img-top img-fluid img-thumbnail" alt="Card Image 3">
-                        <div class="card-body">
+                        <div class="card-body" id="realestatep">
                             <h2 class="card-title">Real Estate</h2>
                             <p class="card-text">From house flips to property management</p>
                             <a href="#" class="stretched-link"></a>
                         </div>
                     </div>
                 </div>
-            </div>
 
-                <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-2">
                         <div class="card text-center">
                             <img src="./pics/coding_icon.png" class="card-img-top img-fluid img-thumbnail" alt="Card Image 3">
-                            <div class="card-body">
+                            <div class="card-body" id="codingp">
                                 <h2 class="card-title">Software Engineering</h2>
                                 <p class="card-text">An engaging list of coding projects</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 mt-2">
                         <div class="card text-center">
                             <img src="./pics/acting_icon.png" class="card-img-top img-fluid img-thumbnail" alt="Card Image 3">
-                            <div class="card-body">
+                            <div class="card-body" id="actingp">
                                 <h2 class="card-title">Acting</h2>
                                 <p class="card-text">A list of shows and movies Marvin has appeared on</p>
                                 <a href="#" class="stretched-link"></a>
                             </div>
                         </div>
                     </div>
-            </div>
+        </div>
+        </div>
     
         <style>
             .card:hover {
