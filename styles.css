@@ -7,6 +7,19 @@ a {
 
 
 
+.navbar-brand{
+    animation: logoColorChange 5s ease-in-out forwards; 
+};
+
+h1 {
+    padding: 10px;
+    border: #606C38 solid 2px;
+    border-width: medium 80px;
+    border-radius: 13px;
+}
+
+
+
 
 
 .card-img-top {
@@ -29,20 +42,38 @@ a {
     margin-bottom: 5px;
 }
 
+.nav-link {
+    color: white;
+}
+
+
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1020; /* Ensures it stays above other content */
     animation: navbarColorChange 5s ease-in-out forwards;
 }
+
+
 @keyframes navbarColorChange {
     0% {
         background-color: #fefae0
     }
     100% {
-        background-color: #DDA15E;
+        background-color: #606C38;
     }
 }
+
+
+@keyframes logoColorChange {
+    0% {
+        color: black
+    }
+    100% {
+        color: white;
+    }
+}
+
 .card-body p {
     color: #FEFAE0;
 }
@@ -168,7 +199,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 74vh;
     margin: 0;
     background: #0d0d0d;
     color: #fff;
