@@ -1,0 +1,3 @@
+ I created this website as a portfolio website to show to future potential employers; so I spent alot of time adding details and modern features. All the links on the website work and I also used a few animations. 
+ I used Bootstrap to style the basic layout of the website and improved on it with custom css.
+ The first function will add sofware project websites Ive created to my "Software Projects" page. The second function checks the validity of an email entered on the "Contact" page. The third item is a method used on an array to reorder the song list on the "Music" page. The last function takes the users input and searches the "content array" to filter out non-matches.
